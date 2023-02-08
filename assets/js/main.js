@@ -1,4 +1,4 @@
-if (location.pathname == "https://noisekov.github.io/tral-mash/") {
+if (location.pathname == "/tral-mash/") {
     const showMore = document.querySelector('.transport__btn');
     showMore.addEventListener('click', findElementWithClassHidden);
     
