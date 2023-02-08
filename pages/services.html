@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services</title>
+    <link rel="stylesheet" href="./assets/style/lib.css">
+    <link rel="preload" href="./assets/style/burger.css" as="style" onload="this.rel='stylesheet'">
+    <link rel="stylesheet" href="./assets/style/style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="container">
+                <div class="header__wrapper">
+                    <a href="/" class="header__logo">
+                        <picture>
+                            <source srcset="./assets/image/logo991.webp" media="(max-width: 991px)" type="image/webp">
+                            <source srcset="./assets/image/logo991.png" media="(max-width: 991px)" type="image/png">
+                            <source srcset="./assets/image/logo.webp"  type="image/webp">
+                            <source srcset="./assets/image/logo.png"  type="image/png">
+                            <img class="header__logo1" src="./assets/image/logo.png" alt="логотип" width="150" height="57">
+                        </picture>
+                        <img class="header__logo2" src="./assets/image/logo991.png" alt="логотип" width="150" height="57">
+                    </a>
+                    <div class="header-middle">
+                        <div class="header-middle--up">
+                            <span class="header-middle__location">Санкт-Петербург</span>
+                            <span class="header-middle__time-work">Ежедневно с 08:00 до 21:00</span>
+                        </div>
+                        <div class="header-middle--down">
+                            <nav class="nav">
+                                <ul class="nav__items">
+                                    <li class="nav__item" tabindex="0">
+                                        <a class="nav__link" href="/">Главная</a>
+                                    </li>
+                                    <li class="nav__item" tabindex="0">
+                                        <span class="nav__item-dropdown">Услуги</span> 
+                                        <div class="nav__item-dropdown__wrapper">
+                                            <ul class="dropdown__items">
+                                                <li class="dropdown__item">
+                                                    <a href="/" class="dropdown__link">Аренда трала</a>
+                                                </li>
+                                                <li class="dropdown__item">
+                                                    <a href="/" class="dropdown__link">Аренда автокранов</a>
+                                                </li>
+                                                <li class="dropdown__item dropdown__item-icon">
+                                                    <span class="dropdown__item-block">Перевозка спецтехники</span>
+                                                    <div class="dropdown__item-block__wrapper">
+                                                        <ul class="dropdown-inner__items">
+                                                            <li class="dropdown-inner__item">
+                                                                <a href="/" class="dropdown-inner__link">Перевозка экскаваторов</a>
+                                                            </li>
+                                                            <li class="dropdown-inner__item">
+                                                                <a href="/" class="dropdown-inner__link">Перевозка бульдозеров</a>
+                                                            </li>
+                                                            <li class="dropdown-inner__item">
+                                                                <a href="/" class="dropdown-inner__link">Перевозка погрузчиков</a>
+                                                            </li>
+                                                            <li class="dropdown-inner__item">
+                                                                <a href="/" class="dropdown-inner__link">Перевозка кранов</a>
+                                                            </li>
+                                                            <li class="dropdown-inner__item">
+                                                                <a href="/" class="dropdown-inner__link">Перевозка дробилок</a>
+                                                            </li>
+                                                            <li class="dropdown-inner__item">
+                                                                <a href="/" class="dropdown-inner__link">Перевозка буровых</a>
+                                                            </li>
+                                                            <li class="dropdown-inner__item">
+                                                                <a href="/" class="dropdown-inner__link">Перевозка грохотов</a>
+                                                            </li>
+                                                            <li class="dropdown-inner__item">
+                                                                <a href="/" class="dropdown-inner__link">Перевозка асфальтоукладчиков</a>
+                                                            </li>
+                                                            <li class="dropdown-inner__item">
+                                                                <a href="/" class="dropdown-inner__link">Перевозка катков</a>
+                                                            </li>
+                                                            <li class="dropdown-inner__item">
+                                                                <a href="/" class="dropdown-inner__link">Перевозка дорожной техники</a>
+                                                            </li>
+                                                            <li class="dropdown-inner__item">
+                                                                <a href="/" class="dropdown-inner__link">Перевозка гусеничной техники</a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </li>
+                                                <li class="dropdown__item dropdown__item-icon">
+                                                    <span class="dropdown__item-block">Перевозка оборудования</span>
+                                                    <div class="dropdown__item-block__wrapper">
+                                                        <ul class="dropdown-inner__items">
+                                                            <li class="dropdown-inner__item">
+                                                                <a href="/" class="dropdown-inner__link">Перевозка трансформаторов</a>
+                                                            </li>
+                                                            <li class="dropdown-inner__item">
+                                                                <a href="/" class="dropdown-inner__link">Перевозка паровых котлов</a>
+                                                            </li>
+                                                            <li class="dropdown-inner__item">
+                                                                <a href="/" class="dropdown-inner__link">Перевозка мостовых балок</a>
+                                                            </li>
+                                                            <li class="dropdown-inner__item">
+                                                                <a href="/" class="dropdown-inner__link">Перевозка кабельных барабанов</a>
+                                                            </li>
+                                                            <li class="dropdown-inner__item">
+                                                                <a href="/" class="dropdown-inner__link">Перевозка труб большого диаметра</a>
+                                                            </li>
+                                                            <li class="dropdown-inner__item">
+                                                                <a href="/" class="dropdown-inner__link">Перевозка промышленного <br>оборудования</a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </li>
+                                                <li class="dropdown__item dropdown__item-icon">
+                                                    <span class="dropdown__item-block">Перевозка лесозаготовительной техники</span>
+                                                    <div class="dropdown__item-block__wrapper">
+                                                        <ul class="dropdown-inner__items">
+                                                            <li class="dropdown-inner__item">
+                                                                <a href="/" class="dropdown-inner__link">Перевозка форвардеров</a>
+                                                            </li>
+                                                            <li class="dropdown-inner__item">
+                                                                <a href="/" class="dropdown-inner__link">Перевозка харвестеров</a>
+                                                            </li>
+                                                            <li class="dropdown-inner__item">
+                                                                <a href="/" class="dropdown-inner__link">Перевозка скиддеров</a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </li>
+                                                <li class="dropdown__item dropdown__item-icon">
+                                                    <span class="dropdown__item-block">Перевозка сельскохозяйственной техники</span>
+                                                    <div class="dropdown__item-block__wrapper">
+                                                        <ul class="dropdown-inner__items">
+                                                            <li class="dropdown-inner__item">
+                                                                <a href="/" class="dropdown-inner__link">Перевозка тракторов</a>
+                                                            </li>
+                                                            <li class="dropdown-inner__item">
+                                                                <a href="/" class="dropdown-inner__link">Перевозка комбайнов</a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </li>
+                                                <li class="dropdown__item dropdown__item-icon">
+                                                    <span class="dropdown__item-block">Перевозка негабаритных грузов</span>
+                                                    <div class="dropdown__item-block__wrapper">
+                                                        <ul class="dropdown-inner__items">
+                                                            <li class="dropdown-inner__item">
+                                                                <a href="/" class="dropdown-inner__link">Перевозка длинномерных грузов</a>
+                                                            </li>
+                                                            <li class="dropdown-inner__item">
+                                                                <a href="/" class="dropdown-inner__link">Перевозка тяжеловесных грузов</a>
+                                                            </li>
+                                                            <li class="dropdown-inner__item">
+                                                                <a href="/" class="dropdown-inner__link">Перевозка вертолетов</a>
+                                                            </li>
+                                                            <li class="dropdown-inner__item">
+                                                                <a href="/" class="dropdown-inner__link">Перевозка самолетов</a>
+                                                            </li>
+                                                            <li class="dropdown-inner__item">
+                                                                <a href="/" class="dropdown-inner__link">Перевозка военной техники</a>
+                                                            </li>
+                                                            <li class="dropdown-inner__item">
+                                                                <a href="/" class="dropdown-inner__link">Перевозка катеров и яхт</a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </li>
+                                                <li class="dropdown__item dropdown__item-icon">
+                                                    <span class="dropdown__item-block">Перевозка конструкций</span>
+                                                    <div class="dropdown__item-block__wrapper">
+                                                        <ul class="dropdown-inner__items">
+                                                            <li class="dropdown-inner__item">
+                                                                <a href="/" class="dropdown-inner__link">Перевозка металлических ферм</a>
+                                                            </li>
+                                                            <li class="dropdown-inner__item">
+                                                                <a href="/" class="dropdown-inner__link">Перевозка ЖБИ</a>
+                                                            </li>
+                                                            <li class="dropdown-inner__item">
+                                                                <a href="/" class="dropdown-inner__link">Перевозка мостовых балок</a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li class="nav__item" tabindex="0">
+                                        <span class="nav__item-dropdown">О компании</span>
+                                        <div class="nav__item-dropdown__wrapper">
+                                            <ul class="dropdown__items">
+                                                <li class="dropdown__item">
+                                                    <a href="./pages/services.html" class="dropdown__link">Попутные тралы</a>
+                                                </li>
+                                                <li class="dropdown__item">
+                                                    <a href="./pages/accordion.html" class="dropdown__link">Отслеживание грузов</a>
+                                                </li>
+                                                <li class="dropdown__item">
+                                                    <a href="/" class="dropdown__link">Наши вакансии</a>
+                                                </li>
+                                                <li class="dropdown__item">
+                                                    <a href="/" class="dropdown__link">Фотогалерея</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li class="nav__item">
+                                        <a href="./pages/contacts.html" class="nav__link">Контакты</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                    <div class="header-contact">
+                        <div class="header-contact__order">
+                            <a class="header-contact__order-mail" href="mailto:info@zakazat-tral.ru">info@zakazat-tral.ru</a>
+                            <button class="header-contact__order-btn btn-header-footer js-show-callback" value="Заказать звонок">Заказать звонок</button> 
+                        </div>
+                        <div class="header-contact__numbers">
+                            <a href="https://wa.me/89313465562" class="header-contact__numbers-whatsup"></a>
+                            <a href="tg://resolve?domain=tral_mash" class="header-contact__numbers-telegram"></a>
+                            <a class="header-contact__numbers-phone--first" href="tel:89313465562">+7 (931) 346-55-62</a>
+                            <a class="header-contact__numbers-phone--second" href="tel:88129029010">+7 (812) 902-90-10</a>
+                        </div>
+                    </div>
+                    <div class="header-burder">
+                        <span class="header-burder__line"></span>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main>
+            <section class="welcome webp">
+                <div class="container">
+                    <h1 class="welcome__title services__title">Перевозка экскаваторов в санкт-петербурге</h1>
+                    <div class="price">
+                        <a class="price__btn" href="#calc">УЗНАТЬ СТОИМОСТЬ ПЕРЕВОЗКИ</a>
+                        <div class="price__wrapper">
+                            <div class="price__block">
+                                <p class="price__block-text">Не хотите тратить время?</p>
+                                <span class="price__block-order">Закажите 
+                                    <a class="price__block-callback" href="/">обратный звонок</a>
+                                </span>
+                            </div>
+                            <div class="price__icon"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div class="page-wrapper container">
+                <div class="services">
+                    <div class="breadcrumbs">
+                        <ul class="breadcrumbs__items">
+                            <li class="breadcrumbs__item">
+                                <a class="breadcrumbs__link" href="/">Главная</a>
+                            </li>
+                            <li class="breadcrumbs__item">Перевозка экскаваторов</li>
+                        </ul>
+                    </div>
+                    <p class="services__subtitle">Mini excavators are smaller than standard excavators and are typically used for small to moderate jobs like sewer line repair, landscaping work, or pool and hot tub installation.</p>
+                    <section class="suitable-services">
+                        <h2 class="suitable-service__title">Подходящие услуги</h2>
+                        <div class="suitable-service__cards">
+                            <div class="suitable-service__card">
+                                <div class="suitable-service__img">
+                                    <picture>
+                                        <source srcset="./assets/image/services/services1.webp" type="image/webp">
+                                        <source srcset="./assets/image/services/services1.jpg" type="image/img">
+                                        <img src="./assets/image/services/services1.jpg" alt="траллы" width="258" height="182">
+                                    </picture>
+                                </div>
+                                <div class="suitable-services__content">
+                                    <h3 class="suitable-services__card-title">Трал Scania P400</h3>
+                                    <p class="suitable-services__card-subtitle">В данный момент свободен и готов к загрузке</p>
+                                    <div class="suitable-services__block">
+                                        <div class="suitable-services__weight">
+                                            <p class="suitable-services__weight-title">Грузоподъемность</p>
+                                            <span class="suitable-services__weight-subtitle">50 т</span>
+                                        </div>
+                                        <button class="suitable-services__weight-btn button js-suitable-services-callback" value="Заказать">Заказать</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="suitable-service__card">
+                                <div class="suitable-service__img">
+                                    <picture>
+                                        <source srcset="./assets/image/services/services2.webp" type="image/webp">
+                                        <source srcset="./assets/image/services/services2.jpg" type="image/img">
+                                        <img src="./assets/image/services/services2.jpg" alt="траллы" width="258" height="182">
+                                    </picture>
+                                </div>
+                                <div class="suitable-services__content">
+                                    <h3 class="suitable-services__card-title">Трал Scania P200</h3>
+                                    <p class="suitable-services__card-subtitle">В данный момент свободен и готов к загрузке</p>
+                                    <div class="suitable-services__block">
+                                        <div class="suitable-services__weight">
+                                            <p class="suitable-services__weight-title">Грузоподъемность</p>
+                                            <span class="suitable-services__weight-subtitle">50 т</span>
+                                        </div>
+                                        <button class="suitable-services__weight-btn button js-suitable-services-callback" value="Заказать">Заказать</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="faq">
+                        <h2 class="faq__title">faq</h2>
+                        <h3 class="faq__subtitle">How much does it cost to rent a mini excavator?</h3>
+                        <p class="faq__text">The cost to rent a mini excavator varies depending on size, with prices generally rising as machines get heavier. They can be rented by the day, week, or month. Here are some examples of what you might expect to pay:</p>
+                        <ul class="faq__items">
+                            <li class="faq__item">A 4,000-pound mini excavator costs $197 a day, $520 a week, or $1,456 a month.</li>
+                            <li class="faq__item">An 8,000-pound mini excavator costs $242 a day, $728 a week, or $1,966 a month.</li>
+                            <li class="faq__item">A 12,000-pound mini excavator costs $312 a day, $907 a week, or $2,466 a month.</li>
+                            <li class="faq__item">A 16,000-pound mini excavator costs $416 a day, $1,278 a week, or $3,048 a month.</li>
+                            <li class="faq__item">An 18,000-pound mini excavator costs $416 a day, $1,005 a week, or $3,009 a month.</li>
+                        </ul>
+                        <h3 class="faq__subtitle">What is a mini excavator used for?</h3>
+                        <p class="faq__text">Mini excavators are the smallest class of machines but work like other types of earthmoving equipment. You can use them for tasks like digging, light demolition, trenching, plowing, leveling, drilling, and grading. Projects that they’re commonly used for include installing pools, removing trees, landscaping, and demolishing small buildings.</p>
+                        <h3 class="faq__subtitle">What are the differences between excavators and mini excavators?</h3>
+                        <p class="faq__text">A standard excavator weighs 10 to 45 tons, while a mini excavator weighs less than six tons. Mini excavators are more compact, allowing them to fit into tighter spaces and maneuver more easily. They’re often small enough to transport via Class 1 and Class 2 trucks, which don’t require a commercial driver’s license in some states.</p>
+                        <h3 class="faq__subtitle">What size mini excavator do I need?</h3>
+                        <p class="faq__text">What size machine you choose depends on the size of your job, the space, and how much power you need. Bigger buckets can carry heavier loads, but smaller machines can fit into tighter spaces, so you’ll have to weigh the pros and cons of each option.
+                            A 3,500-pound mini excavator can dig small foundations; transfer material such as piping or beams; and move dirt, gravel, rubble, or debris. An 11,000-pound model can tackle jobs like trenching and backfilling. An 18,500-pound model can dig up to 15 feet.</p>
+                    </section>
+                    <section class="transport">
+                        <h2>Что еще мы перевозим</h2>
+                        <div class="transport__cards cards">
+                            <div class="transport__card card">
+                                <a href="/" class="card__title">Спецтехника</a>
+                                <a class="card__img" href="/">
+                                    <picture>
+                                        <source srcset="./assets/image/transport/transport1.webp" type="image/webp">
+                                        <source srcset="./assets/image/transport/transport1.jpg" type="image/img">
+                                        <img src="./assets/image/transport/transport1.jpg" alt="траллы" width="295" height="204">
+                                    </picture>
+                                </a>
+                                <a class="card__btn" href="/"></a>
+                            </div>
+                            <div class="transport__card card">
+                                <a href="/" class="card__title">Экскаваторы</a>
+                                <a class="card__img" href="/">
+                                    <picture>
+                                        <source srcset="./assets/image/transport/transport2.webp" type="image/webp">
+                                        <source srcset="./assets/image/transport/transport2.jpg" type="image/img">
+                                        <img src="./assets/image/transport/transport2.jpg" alt="траллы" width="295" height="204">
+                                    </picture>
+                                </a>
+                                <a class="card__btn" href="/"></a>
+                            </div>
+                            <div class="transport__card card">
+                                <a href="/" class="card__title">Бульдозеры</a>
+                                <a class="card__img" href="/">
+                                    <picture>
+                                        <source srcset="./assets/image/transport/transport3.webp" type="image/webp">
+                                        <source srcset="./assets/image/transport/transport3.jpg" type="image/img">
+                                        <img src="./assets/image/transport/transport3.jpg" alt="траллы" width="295" height="204">
+                                    </picture>
+                                </a>
+                                <a class="card__btn" href="/"></a>
+                            </div>
+                            <div class="transport__card card">
+                                <a href="/" class="card__title">Спецтехника</a>
+                                <a class="card__img" href="/">
+                                    <picture>
+                                        <source srcset="./assets/image/transport/transport1.webp" type="image/webp">
+                                        <source srcset="./assets/image/transport/transport1.jpg" type="image/img">
+                                        <img src="./assets/image/transport/transport1.jpg" alt="траллы" width="295" height="204">
+                                    </picture>
+                                </a>
+                                <a class="card__btn" href="/"></a>
+                            </div>
+                            <div class="transport__card card">
+                                <a href="/" class="card__title">Экскаваторы</a>
+                                <a class="card__img" href="/">
+                                    <picture>
+                                        <source srcset="./assets/image/transport/transport2.webp" type="image/webp">
+                                        <source srcset="./assets/image/transport/transport2.jpg" type="image/img">
+                                        <img src="./assets/image/transport/transport2.jpg" alt="траллы" width="295" height="204">
+                                    </picture>
+                                </a>
+                                <a class="card__btn" href="/"></a>
+                            </div>
+                            <div class="transport__card card">
+                                <a href="/" class="card__title">Бульдозеры</a>
+                                <a class="card__img" href="/">
+                                    <picture>
+                                        <source srcset="./assets/image/transport/transport3.webp" type="image/webp">
+                                        <source srcset="./assets/image/transport/transport3.jpg" type="image/img">
+                                        <img src="./assets/image/transport/transport3.jpg" alt="траллы" width="295" height="204">
+                                    </picture>
+                                </a>
+                                <a class="card__btn" href="/"></a>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                <aside class="menu">
+                    <p class="menu__title">Наши услуги</p>
+                    <span class="menu__items-title">Техника в аренду</span>
+                    <ul class="menu__items">
+                        <li class="menu__item">
+                            <a href="#" class="menu__link">Тралы</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#" class="menu__link">Манипуляторы</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#" class="menu__link">Автокраны</a>
+                        </li>
+                    </ul>
+                    <span class="menu__items-title">Что мы перевозим</span>
+                    <ul class="menu__items">
+                        <li class="menu__item">
+                            <a href="#" class="menu__link">Экскаваторы</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#" class="menu__link">Бульдозеры</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#" class="menu__link">Погрузчики</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#" class="menu__link">Краны</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#" class="menu__link">Дробилки</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#" class="menu__link">Грохоты</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#" class="menu__link">Асфальтоукладчики</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#" class="menu__link">Катки</a>
+                        </li>
+                    </ul>
+                </aside>
+            </div>
+        </main>
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-up">
+                    <div class="footer-up__question">
+                        <div class="footer-up__question-logo">
+                            <img src="./assets/image/logo.png" alt="логотип" width="120" height="66">
+                        </div>
+                        <p class="footer-up__question-title">Транспортная компания с многолетним стажем работы, своим автопарком и опытными водителями</p>
+                        <p class="footer-up__question-subtitle">Остались вопросы?</p>
+                        <button class="footer-up__question-btn btn-header-footer js-ask-question" type="submit" value="Задайте их нам">Задайте их нам</button>
+                    </div>
+                    <div class="footer-up__company">
+                        <p class="footer-title">О компании</p>
+                        <ul class="footer-up__company-items">
+                            <li class="footer-up__company-item">
+                                <a href="/" class="footer-up__company-link">Главная</a>
+                            </li>
+                            <li class="footer-up__company-item">
+                                <a href="/" class="footer-up__company-link">Наши услуги</a>
+                            </li>
+                            <li class="footer-up__company-item">
+                                <a href="/" class="footer-up__company-link">Попутные тралы</a>
+                            </li>
+                            <li class="footer-up__company-item">
+                                <a href="/" class="footer-up__company-link">Отслеживание грузов</a>
+                            </li>
+                            <li class="footer-up__company-item">
+                                <a href="/" class="footer-up__company-link">Вакансии компании</a>
+                            </li>
+                            <li class="footer-up__company-item">
+                                <a href="/" class="footer-up__company-link">Фотогалерея перевозок</a>
+                            </li>
+                            <li class="footer-up__company-item">
+                                <a href="/" class="footer-up__company-link">Контактная информация</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer-up__office">
+                        <p class="footer-title">Главный офис</p>
+                        <a href="./pages/contacts.html">
+                            <div class="footer-up__office-map">
+                                <img src="./assets/image/footer-map.jpg" alt="карта офиса" width="182" height="102">
+                            </div>
+                        </a>
+                        <span class="footer-up__office-address">Санкт-Петербург,<br> дорога в Каменку 74</span>
+                    </div>
+                    <div class="footer-up__contacts">
+                        <p class="footer-title">Контакты</p>
+                        <ul class="footer-up__contacts-items">
+                            <li class="footer-up__contacts-item">
+                                <a href="tel:88129029010" class="footer-up__contacts-link--phone">+7 (812) 902-90-10</a>
+                            </li>
+                            <li class="footer-up__contacts-item">
+                                <a href="tel:89313465562" class="footer-up__contacts-link--phone">+7 (931) 346-55-62</a>
+                            </li>
+                            <li class="footer-up__contacts-item">
+                                <a href="mailto:info@zakazat-tral.ru" class="footer-up__contacts-link--mail">info@zakazat-tral.ru</a>
+                            </li>
+                            <li class="footer-up__contacts-item">
+                                <a href="/" class="footer-up__contacts-link--wa">Написать в Whatsapp</a>
+                            </li>
+                            <li class="footer-up__contacts-item">
+                                <a href="/" class="footer-up__contacts-link--tg">Написать в Telegram</a>
+                            </li>
+                            <li class="footer-up__contacts-item">
+                                <a href="/" class="footer-up__contacts-link--control js-quality-control">Контроль качества</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-down">
+                    <p class="footer-down__date-rule">© 2023 «Трал Маш». Все права защищены.</p>
+                    <a class="footer-down__politics" href="/">
+                            Политика обработки персональных данных
+                    </a>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="./assets/js/lib.js"></script>
+    <script src="./assets/js/main.js"></script>
+    <script src="./assets/js/burger.js"></script>
+</body>
+</html>
