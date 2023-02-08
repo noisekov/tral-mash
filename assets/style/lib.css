@@ -144,7 +144,7 @@
  .noUi-connects.big {
   width: 100%;
   height: 100%;
-  background-image: url(./assets/image/icon/line-warning.svg);
+  background-image: url(../image/icon/line-warning.svg);
   background-size: 16px;
   background-size: contain;
  }
