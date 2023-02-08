@@ -131,7 +131,7 @@ img {
     display: inline-flex;
     width: 13px;
     height: 18px;
-    background-image: url(./assets/image/icon/location.svg);
+    background-image: url(/assets/image/icon/location.svg);
     background-position: center center;
     background-repeat: no-repeat;
     transform: translateY(2px) translateX(-13px);
@@ -156,7 +156,7 @@ img {
     display: inline-flex;
     width: 22px;
     height: 22px;
-    background-image: url(./assets/image/icon/clock.png);
+    background-image: url(/assets/image/icon/clock.png);
     background-position: center center;
     background-repeat: no-repeat;
     transform: translateY(5px) translateX(-13px);
@@ -193,7 +193,7 @@ img {
     display: inline-block;
     width: 10px;
     height: 10px;
-    background-image: url(./assets/image/icon/arrow.svg);
+    background-image: url(/assets/image/icon/arrow.svg);
     background-repeat: no-repeat;
     background-position: right center;
     transform: translateY(2px);
@@ -204,7 +204,7 @@ img {
     display: inline-block;
     width: 10px;
     height: 10px;
-    background-image: url(./assets/image/icon/arrow.svg);
+    background-image: url(/assets/image/icon/arrow.svg);
     background-repeat: no-repeat;
     background-position: right center;
     transform: translateY(2px);
@@ -363,7 +363,7 @@ img {
     right: -21px;
     width: 20px;
     height: 21px;
-    background-image: url(./assets/image/icon/arrow.svg);
+    background-image: url(/assets/image/icon/arrow.svg);
     background-repeat: no-repeat;
     background-position: center center;
     transform: rotate(270deg);
@@ -493,7 +493,7 @@ main {
     }
 }
 .welcome.webp {
-    background-image: url(./assets/image/main.webp);
+    background-image: url(/assets/image/main.webp);
     background-size: cover;
     background-position:center;
     background-repeat: no-repeat;
@@ -504,7 +504,7 @@ main {
     justify-content: center;
 }
 .welcome.no-webp {
-    background-image: url(./assets/image/main.jpg);
+    background-image: url(/assets/image/main.jpg);
     background-size: cover;
     background-position:center;
     background-repeat: no-repeat;
@@ -603,7 +603,7 @@ main {
 }
 .price__icon {
     content: "";
-    background-image: url(./assets/image/icon/time.png);
+    background-image: url(/assets/image/icon/time.png);
     background-position: 5px 0;
     background-size: cover;
     background-repeat: no-repeat;
@@ -855,7 +855,7 @@ main {
 }
 .one-way__title-description {
     display: inline-block;
-    background-image: url(./assets/image/icon/info.svg);
+    background-image: url(/assets/image/icon/info.svg);
     background-size: contain;
     width: 21px;
     height: 20px;
@@ -1147,7 +1147,7 @@ main {
 }
 /* how-much */
 .how-much {
-    background-image: url(./assets/image/worker-overlay.jpg);
+    background-image: url(/assets/image/worker-overlay.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -2052,7 +2052,7 @@ main {
     display: inline-flex;
     width: 13px;
     height: 18px;
-    background-image: url(./assets/image/icon/location.svg);
+    background-image: url(/assets/image/icon/location.svg);
     background-position: center center;
     background-repeat: no-repeat;
     transform: translateY(2px) translateX(-13px);
@@ -2117,7 +2117,7 @@ main {
     display: inline-flex;
     width: 21px;
     height: 21px;
-    background-image: url(./assets/image/icon/whatsapp.png);
+    background-image: url(/assets/image/icon/whatsapp.png);
     background-position: center center;
     background-repeat: no-repeat;
     margin-right: 7px;
@@ -2137,7 +2137,7 @@ main {
     display: inline-flex;
     width: 21px;
     height: 21px;
-    background-image: url(./assets/image/icon/telegram.png);
+    background-image: url(/assets/image/icon/telegram.png);
     background-position: center center;
     background-repeat: no-repeat;
     transition: 0.1s linear;
@@ -2158,7 +2158,7 @@ main {
 }
 /* PAGE CONTACTS */
 .page-welcome {
-    background-image: url(./assets/image/main.jpg);
+    background-image: url(/assets/image/main.jpg);
     background-size: cover;
     background-position:center;
     background-repeat: no-repeat;
@@ -2285,7 +2285,7 @@ main {
     margin-right: 10px;
     content: "";
     display: inline-flex;
-    background-image: url(./assets/image/icon/flag.png);
+    background-image: url(/assets/image/icon/flag.png);
     background-repeat: no-repeat;
     width: 24px;
     height: 24px;
@@ -2294,7 +2294,7 @@ main {
     margin-right: 10px;
     content: "";
     display: inline-flex;
-    background-image: url(./assets/image/icon/address.png);
+    background-image: url(/assets/image/icon/address.png);
     background-repeat: no-repeat;
     width: 24px;
     height: 28px;
@@ -2303,7 +2303,7 @@ main {
     margin-right: 10px;
     content: "";
     display: inline-flex;
-    background-image: url(./assets/image/icon/metro.png);
+    background-image: url(/assets/image/icon/metro.png);
     background-repeat: no-repeat;
     width: 24px;
     height: 24px;
@@ -2312,7 +2312,7 @@ main {
     margin-right: 10px;
     content: "";
     display: inline-flex;
-    background-image: url(./assets/image/icon/metro.png);
+    background-image: url(/assets/image/icon/metro.png);
     background-repeat: no-repeat;
     width: 24px;
     height: 24px;
@@ -2321,7 +2321,7 @@ main {
     margin-right: 10px;
     content: "";
     display: inline-flex;
-    background-image: url(./assets/image/icon/clock-black.png);
+    background-image: url(/assets/image/icon/clock-black.png);
     background-repeat: no-repeat;
     width: 24px;
     height: 24px;
@@ -2346,7 +2346,7 @@ main {
     margin-right: 10px;
     content: "";
     display: inline-flex;
-    background-image: url(./assets/image/icon/call.png);
+    background-image: url(/assets/image/icon/call.png);
     background-repeat: no-repeat;
     width: 24px;
     height: 24px;
@@ -2355,7 +2355,7 @@ main {
     margin-right: 10px;
     content: "";
     display: inline-flex;
-    background-image: url(./assets/image/icon/whatsapp.png);
+    background-image: url(/assets/image/icon/whatsapp.png);
     background-repeat: no-repeat;
     width: 24px;
     height: 28px;
@@ -2364,7 +2364,7 @@ main {
     margin-right: 10px;
     content: "";
     display: inline-flex;
-    background-image: url(./assets/image/icon/telegram.png);
+    background-image: url(/assets/image/icon/telegram.png);
     background-repeat: no-repeat;
     width: 24px;
     height: 24px;
@@ -2373,7 +2373,7 @@ main {
     margin-right: 10px;
     content: "";
     display: inline-flex;
-    background-image: url(./assets/image/icon/mail.png);
+    background-image: url(/assets/image/icon/mail.png);
     background-repeat: no-repeat;
     width: 24px;
     height: 24px;
@@ -2382,7 +2382,7 @@ main {
     margin-right: 10px;
     content: "";
     display: inline-flex;
-    background-image: url(./assets/image/icon/guarantee.png);
+    background-image: url(/assets/image/icon/guarantee.png);
     background-repeat: no-repeat;
     width: 24px;
     height: 24px;
