@@ -4,6 +4,9 @@
 * vanilla js
 * noUislider(js)
 * air-datepicker(js)
+* HC Off-canvas Nav
+* fancybox
+* glide
 
 ## Active page
 * О компании - Попутные тралы 
